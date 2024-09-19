@@ -1,0 +1,160 @@
+
+
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form | CodingNepal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+       * {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing:border-box;
+    background-size:cover;
+    
+    
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:100%;
+  background-image:url(1.jpg);
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100℅;
+  background:transparent;
+}
+
+.login-box {
+    background: #fff;
+    padding: 40px;
+    border-radius: 100px;
+    height:100px;
+    width: 300px;
+    text-align: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom:200px;
+    width:80%;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    font-size: 25px;
+    color: #333;
+}
+
+.input-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #999;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #007BFF;
+    font-size: 12px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:green;
+    border: none;
+    border-radius: 5px;
+    color: darkred;
+    box-shadow:3px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.signup-link {
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.signup-link a:hover {
+    color: #0056b3;
+}
+.html{
+    background-image:url(2.jpg);
+}
+
+
+
+</style>
+<body>
+  <div class="wrapper">
+    <form action="#">
+      <h1 align=center>Login</h1><br><br>
+        <div class="input-field">
+        
+        <label><b></b>Username</b></label><br>
+        <input type="text" required><br>
+      </div>
+      <div class="input-field"><br>
+        <label><b>Password</b></label><br>
+        <input type="password" required><br><br>
+        
+      </div>
+      <div class="forget">
+        <label for="remember">
+          <input type="checkbox"  id="remember"  value="Show Password">Show password
+          
+        </label>
+        
+      </div>
+      <button type="submit">Log In</button>
+      <div class="register">
+        <p>Don't have an account? <a href="index1.html">sign Up</a></p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
